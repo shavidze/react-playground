@@ -182,7 +182,8 @@ h6 {
 
 /* Hero */
 
-.defaultHero, .roomsHero {
+.defaultHero,
+.roomsHero {
   min-height: calc(100vh - 66px);
   background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
   display: flex;
@@ -453,7 +454,8 @@ h6 {
   margin: 2rem auto;
 }
 
-.desc, .info {
+.desc,
+.info {
   margin: 1rem 0;
 }
 
@@ -466,7 +468,8 @@ h6 {
   line-height: 1.5;
 }
 
-.info h3, .info h6 {
+.info h3,
+.info h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
@@ -494,7 +497,9 @@ h6 {
 }
 
 @media screen and (min-width: 992px) {
-  .single-room-images, .single-room-info, .room-extras {
+  .single-room-images,
+  .single-room-info,
+  .room-extras {
     width: 95vw;
     max-width: 1170px;
   }
