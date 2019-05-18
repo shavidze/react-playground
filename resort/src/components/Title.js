@@ -1,6 +1,6 @@
 import React from "react";
 
-const TItle = ({ title }) => {
+const Title = ({ title }) => {
   return (
     <div className="section-title">
       <h4>{title}</h4>
@@ -8,4 +8,4 @@ const TItle = ({ title }) => {
   );
 };
 
-export default TItle;
+export default Title;
