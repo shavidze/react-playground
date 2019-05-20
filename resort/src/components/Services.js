@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
 import Title from "./Title";
 
-export default class Services extends Component {
+class Services extends React.Component {
   state = {
     services: [
       {
@@ -27,6 +27,7 @@ export default class Services extends Component {
       }
     ]
   };
+
   render() {
     return (
       <section className="services">
@@ -46,3 +47,5 @@ export default class Services extends Component {
     );
   }
 }
+
+export default Services;
