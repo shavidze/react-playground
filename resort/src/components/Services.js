@@ -1,31 +1,31 @@
-import React from "react";
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
-import Title from "./Title";
+import React from 'react';
+import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
+import Title from './Title';
 
 class Services extends React.Component {
   state = {
     services: [
       {
         icon: <FaCocktail />,
-        title: "free cocktails",
-        info: "loremOfficia officia nulla pariatur velit non laborum. "
+        title: 'free cocktails',
+        info: 'loremOfficia officia nulla pariatur velit non laborum. ',
       },
       {
         icon: <FaHiking />,
-        title: "free hiking",
-        info: "loremOfficia officia nulla pariatur velit non laborum. "
+        title: 'free hiking',
+        info: 'loremOfficia officia nulla pariatur velit non laborum. ',
       },
       {
         icon: <FaShuttleVan />,
-        title: "free shuttle",
-        info: "loremOfficia officia nulla pariatur velit non laborum. "
+        title: 'free shuttle',
+        info: 'loremOfficia officia nulla pariatur velit non laborum. ',
       },
       {
         icon: <FaBeer />,
-        title: "free beer",
-        info: "loremOfficia officia nulla pariatur velit non laborum. "
-      }
-    ]
+        title: 'free beer',
+        info: 'loremOfficia officia nulla pariatur velit non laborum. ',
+      },
+    ],
   };
 
   render() {

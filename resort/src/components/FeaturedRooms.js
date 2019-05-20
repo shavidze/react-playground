@@ -1,5 +1,5 @@
-import React from "react";
-import { RoomContext } from "../context";
+import React from 'react';
+import { RoomContext } from '../context';
 
 class FeaturedRooms extends React.Component {
   static contextType = RoomContext;
