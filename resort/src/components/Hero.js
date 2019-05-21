@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = ({ children, className }) => <header className={className}>{children}</header>;
 
 Hero.defaultProps = {
-  hero: 'defaultHero',
+  className: 'defaultHero',
 };
 
 export default Hero;
