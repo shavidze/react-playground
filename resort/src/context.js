@@ -29,6 +29,8 @@ class RoomProvider extends Component {
     return tempItems;
   }
 
+  getRoom = slug => {};
+
   render() {
     return (
       <RoomContext.Provider value={{ ...this.state }}>{this.props.children}</RoomContext.Provider>
