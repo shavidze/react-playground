@@ -39,6 +39,7 @@ const RoomFilter = ({ rooms }) => {
   return (
     <div className="filter-container">
       <Title title="search rooms" />
+
       <form className="filter-form">
         <div className="form-group">
           <label htmlFor="type">room type</label>
@@ -68,7 +69,55 @@ const RoomFilter = ({ rooms }) => {
 
         <div className="form-group">
           <label htmlFor="price">room price ${price}</label>
-          <input type="range" name="price" min={minPrice} max={maxPrice} id="price" value={price} onChange={handleChange} className="form-control"/>
+          <input
+            type="range"
+            name="price"
+            min={minPrice}
+            max={maxPrice}
+            id="price"
+            value={price}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="size">room size</label>
+          <div className="size-inputs">
+            <input
+              type="number"
+              name="minSize"
+              value={minSize}
+              className="size-input"
+              id="size"
+              onChange={handleChange}
+            />
+            <input
+              type="number"
+              name="maxSize"
+              value={maxSize}
+              className="size-input"
+              id="size"
+              onChange={handleChange}
+            />
+          </div>
+        </div>
+
+        <div className="form-grou">
+          <div className="single-extra">
+            <input
+              type="checkbox"
+              name="breakfast"
+              checked={breakfast}
+              id="breakfast"
+              onChange={handleChange}
+            />
+            <label htmlFor="breakfast">breakfast</label>
+          </div>
+          <div className="single-extra">
+            <input type="checkbox" name="pets" checked={pets} id="pets" onChange={handleChange} />
+            <label htmlFor="pets">pets</label>
+          </div>
         </div>
       </form>
     </div>
