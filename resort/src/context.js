@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import items from './data';
+import Client from './Contentful';
+import { async } from 'q';
 
 const RoomContext = React.createContext();
 
@@ -18,6 +20,14 @@ class RoomProvider extends Component {
     maxSize: 0,
     breakfast: false,
     pets: false,
+  };
+
+  getData = async () => {
+    try {
+      let response = await Client.getEntries({ content_type: 'beachResortRoom' });
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   //immediatly load data
@@ -98,6 +108,7 @@ class RoomProvider extends Component {
 }
 
 const RoomConsumer = RoomContext.Consumer;
+
 export function withRoomConsumer(Component) {
   console.log('component = ' + Component);
   return function ConsumerWrapper(props) {
