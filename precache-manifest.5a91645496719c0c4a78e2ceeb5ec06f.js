@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7514c5995fbb4be7036a32d263560dac",
+    "revision": "d9ddfb72c8ca5e133b8267de8443619b",
     "url": "/react-playground/resort/index.html"
   },
   {
-    "revision": "5abaf19bcad72b2eecb8",
+    "revision": "a3ff214bd2ae9a5d3127",
     "url": "/react-playground/resort/static/css/main.81deef44.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-playground/resort/static/js/2.598dacb2.chunk.js"
   },
   {
-    "revision": "5abaf19bcad72b2eecb8",
-    "url": "/react-playground/resort/static/js/main.25df345c.chunk.js"
+    "revision": "a3ff214bd2ae9a5d3127",
+    "url": "/react-playground/resort/static/js/main.9e7584fc.chunk.js"
   },
   {
     "revision": "c1be01a4b205a744ca3b",
