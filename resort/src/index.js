@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router } from 'react-router-dom'; // ჯერ იყოს მოდულების იმპორტი და შემდეგ relative იმპორტი
+import { HashRouter  as Router } from 'react-router-dom'; // ჯერ იყოს მოდულების იმპორტი და შემდეგ relative იმპორტი
 import { RoomProvider } from './context';
 ReactDOM.render(
   <RoomProvider>
