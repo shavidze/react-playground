@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9ddfb72c8ca5e133b8267de8443619b",
+    "revision": "b25108e9c5d5971ae7fc04fe3dc534c9",
     "url": "/react-playground/resort/index.html"
   },
   {
-    "revision": "a3ff214bd2ae9a5d3127",
+    "revision": "707551428a16a72f682f",
     "url": "/react-playground/resort/static/css/main.81deef44.chunk.css"
   },
   {
-    "revision": "708f73fe42c2c0324643",
-    "url": "/react-playground/resort/static/js/2.598dacb2.chunk.js"
+    "revision": "c43ae8b897fac25d23ad",
+    "url": "/react-playground/resort/static/js/2.279c06e6.chunk.js"
   },
   {
-    "revision": "a3ff214bd2ae9a5d3127",
-    "url": "/react-playground/resort/static/js/main.9e7584fc.chunk.js"
+    "revision": "707551428a16a72f682f",
+    "url": "/react-playground/resort/static/js/main.0a0e66e6.chunk.js"
   },
   {
     "revision": "c1be01a4b205a744ca3b",
