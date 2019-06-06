@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom'; // ჯერ იყ�
 import { RoomProvider } from './context';
 ReactDOM.render(
   <RoomProvider>
-    <Router basename="resort">
+    <Router>
       <App />
     </Router>
   </RoomProvider>,
